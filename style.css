@@ -61,7 +61,7 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.94rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.125em;
 }
 
 main {
@@ -150,7 +150,7 @@ section h2 {
 }
 
 .wrapperContainer-padded {
-  padding: 20px;
+  padding: 1.25em;
 }
 
 .metas_card img {
@@ -231,6 +231,9 @@ footer {
 footer a {
   color: rgb(83, 182, 157);
 }
+footer h4{
+  color: #5ebed6;
+}
 
 .creditos-itens {
   text-align: left;
@@ -242,7 +245,7 @@ footer a {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 48em) {
   header {
     height: 30em;
     background-size: cover;
@@ -302,8 +305,7 @@ footer a {
   }
 }
 
-/* Estilos responsivos para telas ainda menores */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 30em) {
   body {
     overflow-x: hidden;
   }
@@ -313,7 +315,7 @@ footer a {
     height: 20em;
     padding-top: 1em;
   }
-
+ 
   .gif {
     width: 100%;
     height: auto;
