@@ -54,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
-  background-color: rgba(32, 43, 43, 0.2);
+  background-color: rgba(61, 83, 83, 0.2);
   padding: 0.98em;
   display: block;
   color: rgb(255, 255, 255);
@@ -150,7 +150,7 @@ section h2 {
 }
 
 .wrapperContainer-padded {
-  padding: 1.25em;
+  padding: 2em;
 }
 
 .metas_card img {
@@ -175,16 +175,27 @@ section h2 {
   text-align: center;
   margin-bottom: 1.875em;
 }
+.form-container h2 label{
+  text-align: center;
+}
+.btn{
+  background-color: #4f8292;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.14em;
+  border: 1px solid #30464d;
+}
 
 #enquete-form {
   background-image: linear-gradient(to right,
       rgba(0, 0, 0, 0.3) 0.5rem,
       #c9d2db 0.5rem);
   margin-top: 1rem;
-  padding: 2rem;
+  padding: 1rem;
+  align-items: center;
   border-radius: 0.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  max-width: 25em;
+  max-width: 30em;
   width: 100%;
 }
 
@@ -211,7 +222,7 @@ section h2 {
   padding: 1rem;
   background-color: #4f8292;
   color: #fff;
-  border: none;
+  border: 1px solid #30464d;
   border-radius: 3px;
   cursor: pointer;
   margin-top: 1rem;
@@ -220,7 +231,6 @@ section h2 {
 #enquete-form button:hover {
   background-color: #3c9cb4;
 }
-
 footer {
   flex-wrap: wrap;
   background: #25303e;
@@ -334,6 +344,9 @@ footer h4{
 
   .metas_card {
     flex-basis: 100%;
+  }
+  .busca{
+    max-width: 100%;
   }
 
   #enquete-form {
